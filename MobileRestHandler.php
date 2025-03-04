@@ -1,5 +1,5 @@
 <?php
-require_once 'simperest.php';
+require_once 'simplerest.php';
 require_once 'Mobile.php';
 
 class MobileRestHandler extends SimpleRest

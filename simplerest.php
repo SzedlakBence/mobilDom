@@ -1,6 +1,6 @@
 <?php
 //szabalyok minta 
-class SimpleRest
+class simplerest
 {
     private $httpVersion ='HTTP/1.1';
 
