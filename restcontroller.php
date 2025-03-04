@@ -10,7 +10,15 @@ if(isset($_GET['view']))
 
 // Restful service URL mapping via $_GET
 
-swich($view)
+switch($view)
 {
+    case "all":
+        // rest url kezelése /mobile/list/
+        $mobileRestHandler = new MobileRestHandler();
+        $mobileRestHandler->getAllMobiles();
+        break;
    
+    case "" :
+        // 404 not found
+        break;
 }
